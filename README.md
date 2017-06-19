@@ -2,7 +2,9 @@
 
 > ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) for GoNimbly
 
-Extends `eslint:recommended` and implements [`eslint-plugin-prettier`](https://github.com/prettier/eslint-plugin-prettier).
+* `eslint:recommended`
+* [`eslint-plugin-prettier`](https://github.com/prettier/eslint-plugin-prettier) and
+* [`eslint-plugin-import`](https://github.com/benmosher/eslint-plugin-import)
 
 Prettier [options](https://github.com/prettier/prettier#options)
 
@@ -23,15 +25,15 @@ parser             | "babylon" *
 ## Installation
 
 ```sh
-npm install -S eslint-config-gonimbly
+npm install -S @gonimbly/eslint-config
 # install correct versions of peer dependencies
 npm install -g install-peerdeps
-install-peerdeps --dev eslint-config-gonimbly
+install-peerdeps --dev @gonimbly/eslint-config
 ```
 
 ## Usage
 
-Once the `eslint-config-gonimbly` package is installed, you can use it by specifying `gonimbly` in the [`extends`](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) section of your [ESLint configuration](http://eslint.org/docs/user-guide/configuring).
+Once `@gonimbly/eslint-config` is installed, you can use it by specifying `@gonimbly` in the [`extends`](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) section of your [ESLint configuration](http://eslint.org/docs/user-guide/configuring).
 
 ```js
 {
