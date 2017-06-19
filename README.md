@@ -37,7 +37,7 @@ Once `@gonimbly/eslint-config` is installed, you can use it by specifying `@goni
 
 ```js
 {
-  "extends": "gonimbly",
+  "extends": "@gonimbly",
   "rules": {
     // Additional, per-project rules...
   }
