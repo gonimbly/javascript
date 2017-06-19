@@ -25,7 +25,7 @@ parser             | "babylon" *
 ## Installation
 
 ```sh
-yarn add @gonimbly/eslint-config
+yarn add -D @gonimbly/eslint-config
 
 # install correct versions of peer dependencies
 yarn add -D eslint@^3.19.0 eslint-config-prettier@^2.2.0 eslint-plugin-import@^2.3.0 eslint-plugin-prettier@^2.1.2 prettier@^1.4.4
