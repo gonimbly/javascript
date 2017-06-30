@@ -8,6 +8,7 @@ module.exports = {
     'prettier/react',
   ],
   rules: {
+    'lines-around-directive': 'off',
     strict: 'off',
   },
 };

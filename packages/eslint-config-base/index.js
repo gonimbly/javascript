@@ -21,6 +21,7 @@ module.exports = {
     'arrow-body-style': ['warn', 'as-needed'],
     eqeqeq: ['warn', 'always', { null: 'ignore' }],
     'import/no-unresolved': ['error', { commonjs: true }],
+    'lines-around-directive': 'error',
     'no-console': 'off',
     'no-else-return': 'warn',
     'no-var': 'warn',
