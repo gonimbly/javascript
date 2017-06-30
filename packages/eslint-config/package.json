@@ -1,0 +1,34 @@
+{
+  "name": "@gonimbly/eslint-config",
+  "version": "1.0.5",
+  "description": "GoNimbly's ESLint config",
+  "author": "Jon Crenshaw <jon.crenshaw@gonimbly.com>",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/gonimbly/eslint-config#readme",
+  "repository": "bitbucket:gonimbly/javascript",
+  "main": "src/index.js",
+  "dependencies": {
+    "@gonimbly/eslint-config-base": "^1.0.5",
+    "eslint-config-react-app": "^1.0.5"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0",
+    "eslint-plugin-flowtype": "^2.33.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-prettier": "^2.1.2",
+    "eslint-plugin-react": "^7.0.1",
+    "prettier": "^1.5.2"
+  },
+  "peerDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0",
+    "eslint-plugin-flowtype": "^2.33.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-prettier": "^2.1.2",
+    "eslint-plugin-react": "^7.0.1",
+    "prettier": "^1.5.2"
+  }
+}

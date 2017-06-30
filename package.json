@@ -1,32 +1,28 @@
 {
-  "name": "@gonimbly/eslint-config",
-  "version": "1.0.5",
-  "description": "GoNimbly's ESLint config",
+  "name": "@gonimbly/javascript",
+  "private": true,
+  "version": "1.0.0",
+  "description": "GoNimbly Javascript Styleguide",
   "author": "Jon Crenshaw <jon.crenshaw@gonimbly.com>",
   "license": "MIT",
-  "homepage": "https://bitbucket.org/gonimbly/eslint-config#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@bitbucket.org/gonimbly/eslint-config.git"
-  },
-  "main": "src/index.js",
+  "homepage": "https://bitbucket.org/gonimbly/javascript#readme",
+  "repository": "bitbucket:gonimbly/javascript",
   "scripts": {
+    "postinstall": "lerna bootstrap",
     "precommit": "lint-staged"
   },
-  "peerDependencies": {
-    "eslint": "^3.19.0",
-    "eslint-config-prettier": "^2.2.0",
-    "eslint-plugin-import": "^2.3.0",
-    "eslint-plugin-prettier": "^2.1.2",
-    "prettier": "^1.4.4"
+  "lint-staged": {
+    "*.js": ["eslint --fix", "git add"],
+    "*.json": ["prettier --write", "git add"]
   },
   "devDependencies": {
     "eslint": "^3.19.0",
     "eslint-config-prettier": "^2.2.0",
-    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-prettier": "^2.1.2",
-    "husky": "^0.13.4",
+    "husky": "^0.14.1",
+    "lerna": "^2.0.0-rc.5",
     "lint-staged": "^4.0.0",
-    "prettier": "^1.4.4"
+    "prettier": "^1.5.2"
   }
 }
