@@ -6,3 +6,11 @@
 
 * [@gonimbly/eslint-config](packages/eslint-config): React apps using Babel, ES2017
 * [@gonimbly/eslint-config-base](packages/eslint-config-base): Non-React apps not using Babel, ES2017
+
+## Contributing
+
+Clone repo, branch, commit, PR.
+
+Merge PR.
+
+To release to npm, run `lerna publish`. Make sure you have run `npm login`.

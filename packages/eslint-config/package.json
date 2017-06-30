@@ -4,7 +4,7 @@
   "description": "GoNimbly's ESLint config",
   "author": "Jon Crenshaw <jon.crenshaw@gonimbly.com>",
   "license": "MIT",
-  "homepage": "https://bitbucket.org/gonimbly/eslint-config#readme",
+  "homepage": "https://bitbucket.org/gonimbly/javascript",
   "repository": "bitbucket:gonimbly/javascript",
   "main": "src/index.js",
   "dependencies": {

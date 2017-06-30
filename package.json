@@ -5,7 +5,7 @@
   "description": "GoNimbly Javascript Styleguide",
   "author": "Jon Crenshaw <jon.crenshaw@gonimbly.com>",
   "license": "MIT",
-  "homepage": "https://bitbucket.org/gonimbly/javascript#readme",
+  "homepage": "https://bitbucket.org/gonimbly/javascript",
   "repository": "bitbucket:gonimbly/javascript",
   "scripts": {
     "postinstall": "lerna bootstrap",
