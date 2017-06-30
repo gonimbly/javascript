@@ -1,6 +1,6 @@
 {
   "name": "@gonimbly/eslint-config-base",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "GoNimbly's Base ESLint config",
   "author": "Jon Crenshaw <jon.crenshaw@gonimbly.com>",
   "license": "MIT",
