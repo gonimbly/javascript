@@ -13,7 +13,8 @@
   },
   "lint-staged": {
     "*.js": ["eslint --fix", "git add"],
-    "*.json": ["prettier --write", "git add"]
+    "*.json": ["prettier --write", "git add"],
+    "yarn.lock": ["git rm --cached"]
   },
   "devDependencies": {
     "eslint": "^3.19.0",
