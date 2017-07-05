@@ -7,7 +7,7 @@ module.exports = {
     'plugin:import/warnings',
     'prettier',
   ],
-  plugins: ['import', 'prettier'],
+  plugins: ['import', 'prefer-object-spread', 'prettier'],
   env: {
     es6: true,
     node: true,
@@ -16,6 +16,9 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2017,
     sourceType: 'script',
+    ecmaFeatures: {
+      experimentalObjectRestSpread: true,
+    },
   },
   rules: {
     'arrow-body-style': ['warn', 'as-needed'],
@@ -29,6 +32,7 @@ module.exports = {
     'prefer-arrow-callback': 'warn',
     'prefer-const': 'warn',
     'prefer-template': 'warn',
+    'prefer-object-spread/prefer-object-spread': ['warn', 'always'],
     'prettier/prettier': [
       'warn',
       {

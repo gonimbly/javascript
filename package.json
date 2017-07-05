@@ -8,6 +8,7 @@
   "homepage": "https://bitbucket.org/gonimbly/javascript",
   "repository": "bitbucket:gonimbly/javascript",
   "scripts": {
+    "clean": "lerna clean --yes && rimraf node_modules **/yarn.lock",
     "postinstall": "lerna bootstrap",
     "precommit": "lint-staged"
   },
@@ -20,10 +21,12 @@
     "eslint": "^3.19.0",
     "eslint-config-prettier": "^2.2.0",
     "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-prefer-object-spread": "^1.2.1",
     "eslint-plugin-prettier": "^2.1.2",
     "husky": "^0.14.1",
     "lerna": "^2.0.0-rc.5",
     "lint-staged": "^4.0.0",
-    "prettier": "^1.5.2"
+    "prettier": "^1.5.2",
+    "rimraf": "^2.6.1"
   }
 }
