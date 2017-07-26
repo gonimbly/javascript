@@ -2,12 +2,16 @@
 
 ## ESLint Configs
 
-> ESLint [shareable configs](http://eslint.org/docs/developer-guide/shareable-configs.html) for GoNimbly
+> ESLint [shareable configs](http://eslint.org/docs/developer-guide/shareable-configs.html) for Go Nimbly
 
 * [@gonimbly/eslint-config](packages/eslint-config): Babel, React
 * [@gonimbly/eslint-config-base](packages/eslint-config-base): Node.js; i.e. Server-side apps w/o Webpack
 
 Exported configs both support ES2017 and formatting with [Prettier](https://github.com/prettier/prettier).
+
+Extend these configs in your ESLint configurations to use. If you have a monorepo, only exend the `@gonimbly/eslint-config-base` in your root and then extend `@gonimbly` (ie: `@gonimbly/eslint-config`) inside inidividual packages that use React and Babel.
+
+Note that the ESLint configurations' "extends" field [allows you to ommit](http://eslint.org/docs/developer-guide/shareable-configs.html#using-a-shareable-config) the `eslint-config-` prefix (_unless_ it is both a scoped package, like `@gonimbly`, _and_ there is text after the `@scoped/estlint-config-` part).
 
 ## Run eslint/prettier pre-commit
 
