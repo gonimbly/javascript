@@ -1,6 +1,6 @@
 {
   "name": "@gonimbly/eslint-config",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "description": "GoNimbly's ESLint config",
   "author": "Jon Crenshaw <jon.crenshaw@gonimbly.com>",
   "license": "MIT",
@@ -8,7 +8,7 @@
   "repository": "bitbucket:gonimbly/javascript",
   "main": "index.js",
   "dependencies": {
-    "@gonimbly/eslint-config-base-babel": "^2.2.1",
+    "@gonimbly/eslint-config-base-babel": "^2.2.2",
     "eslint-config-react-app": "^1.0.5"
   },
   "peerDependencies": {
