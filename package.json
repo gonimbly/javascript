@@ -10,7 +10,8 @@
   "scripts": {
     "clean": "lerna clean --yes && rimraf node_modules **/yarn.lock",
     "postinstall": "lerna bootstrap",
-    "precommit": "lint-staged"
+    "generate-install": "node ./scripts/generate-install.js && git add ./packages/*/README.md",
+    "precommit": "npm run generate-install && lint-staged"
   },
   "lint-staged": {
     "*.js": ["eslint --fix", "git add"],
@@ -18,6 +19,7 @@
     "yarn.lock": ["git rm --cached"]
   },
   "devDependencies": {
+    "chalk": "^2.0.1",
     "eslint": "^3.19.0",
     "eslint-config-prettier": "^2.2.0",
     "eslint-plugin-import": "^2.2.0",
