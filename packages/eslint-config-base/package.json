@@ -10,12 +10,6 @@
   "dependencies": {
     "eslint-config-prettier": "^2.2.0"
   },
-  "devDependencies": {
-    "eslint": "^3.19.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-prettier": "^2.1.2",
-    "prettier": ">=0.11.0"
-  },
   "peerDependencies": {
     "eslint": "^3.19.0",
     "eslint-plugin-import": "^2.2.0",
