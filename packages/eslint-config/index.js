@@ -2,13 +2,9 @@
 
 module.exports = {
   extends: [
-    '@gonimbly/eslint-config-base',
+    '@gonimbly/eslint-config-babel-node',
     'react-app',
     'prettier/flowtype',
     'prettier/react',
   ],
-  rules: {
-    'lines-around-directive': 'off',
-    strict: 'off',
-  },
 };

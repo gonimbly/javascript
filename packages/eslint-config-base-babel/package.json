@@ -1,36 +1,30 @@
 {
-  "name": "@gonimbly/eslint-config",
+  "name": "@gonimbly/eslint-config-babel-node",
   "version": "2.1.0",
-  "description": "GoNimbly's ESLint config",
+  "description": "GoNimbly's ESLint config for Babel-compiled apps",
   "author": "Jon Crenshaw <jon.crenshaw@gonimbly.com>",
   "license": "MIT",
   "homepage": "https://bitbucket.org/gonimbly/javascript",
   "repository": "bitbucket:gonimbly/javascript",
   "main": "index.js",
   "dependencies": {
-    "@gonimbly/eslint-config-base-babel": "^2.1.0",
-    "eslint-config-react-app": "^1.0.5"
+    "@gonimbly/eslint-config-base": "^2.1.0",
+    "eslint-config-prettier": "^2.2.0"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
     "eslint": "^3.19.0",
-    "eslint-plugin-flowtype": "^2.33.0",
     "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^5.0.3",
     "eslint-plugin-prefer-object-spread": "^1.2.1",
     "eslint-plugin-prettier": "^2.1.2",
-    "eslint-plugin-react": "^7.0.1",
     "prettier": "^1.5.2"
   },
   "peerDependencies": {
     "babel-eslint": "^7.2.3",
     "eslint": "^3.19.0",
-    "eslint-plugin-flowtype": "^2.33.0",
     "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^5.0.3",
     "eslint-plugin-prefer-object-spread": "^1.2.1",
     "eslint-plugin-prettier": "^2.1.2",
-    "eslint-plugin-react": "^7.0.1",
     "prettier": "^1.5.2"
   }
 }

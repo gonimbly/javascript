@@ -6,21 +6,19 @@
   "license": "MIT",
   "homepage": "https://bitbucket.org/gonimbly/javascript",
   "repository": "bitbucket:gonimbly/javascript",
-  "main": "src/index.js",
+  "main": "index.js",
   "dependencies": {
     "eslint-config-prettier": "^2.2.0"
   },
   "devDependencies": {
     "eslint": "^3.19.0",
     "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-prefer-object-spread": "^1.2.1",
     "eslint-plugin-prettier": "^2.1.2",
     "prettier": "^1.5.2"
   },
   "peerDependencies": {
     "eslint": "^3.19.0",
     "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-prefer-object-spread": "^1.2.1",
     "eslint-plugin-prettier": "^2.1.2",
     "prettier": "^1.5.2"
   }

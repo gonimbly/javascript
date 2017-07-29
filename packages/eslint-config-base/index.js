@@ -16,9 +16,6 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2017,
     sourceType: 'script',
-    ecmaFeatures: {
-      experimentalObjectRestSpread: true,
-    },
   },
   rules: {
     'arrow-body-style': ['warn', 'as-needed'],
@@ -32,7 +29,6 @@ module.exports = {
     'prefer-arrow-callback': 'warn',
     'prefer-const': 'warn',
     'prefer-template': 'warn',
-    'prefer-object-spread/prefer-object-spread': ['warn', 'always'],
     'prettier/prettier': [
       'warn',
       {
