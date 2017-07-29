@@ -2,7 +2,7 @@
 
 module.exports = {
   extends: [
-    '@gonimbly/eslint-config-babel-node',
+    '@gonimbly/eslint-config-base-babel',
     'react-app',
     'prettier/flowtype',
     'prettier/react',

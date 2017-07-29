@@ -8,7 +8,7 @@
   "repository": "bitbucket:gonimbly/javascript",
   "main": "index.js",
   "dependencies": {
-    "@gonimbly/eslint-config-base-babel": "^2.1.0",
+    "@gonimbly/eslint-config-base-babel": "2.2.0",
     "eslint-config-react-app": "^1.0.5"
   },
   "devDependencies": {
