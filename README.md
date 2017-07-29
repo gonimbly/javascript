@@ -4,8 +4,9 @@
 
 > ESLint [shareable configs](http://eslint.org/docs/developer-guide/shareable-configs.html) for Go Nimbly
 
-* [@gonimbly/eslint-config](packages/eslint-config): Babel, React
-* [@gonimbly/eslint-config-base](packages/eslint-config-base): Node.js; i.e. Server-side apps w/o Webpack
+* [@gonimbly/eslint-config](packages/eslint-config): React apps and Babel
+* [@gonimbly/eslint-config-base-babel](packages/eslint-config-base-babel): Node.js apps **with** Babel
+* [@gonimbly/eslint-config-base](packages/eslint-config-base): Node.js apps **without** Babel
 
 Exported configs both support ES2017 and formatting with [Prettier](https://github.com/prettier/prettier).
 

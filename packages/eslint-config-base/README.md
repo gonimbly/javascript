@@ -2,13 +2,13 @@
 
 Implements a base ESLint configuration intended for apps **not** compiled with Babel running on Node 7+ (ES2017).
 
-## Installation
+## Install
 
-<!-- generate-peers-begin -->
+[]: # (generate-install-begin)
 ```bash
 yarn add -D @gonimbly/eslint-config-base eslint@^3.19.0 eslint-plugin-import@^2.2.0 eslint-plugin-prettier@^2.1.2 prettier@^1.5.2 eslint-plugin-prefer-object-spread@^1.2.1
 ```
-<!-- generate-peers-end -->
+[]: # (generate-install-end)
 
 ## Usage
 
