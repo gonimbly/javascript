@@ -6,7 +6,7 @@ Implements a base ESLint configuration intended for apps **not** compiled with B
 
 []: # (generate-install-begin)
 ```bash
-yarn add -D @gonimbly/eslint-config-base eslint@^3.19.0 eslint-plugin-import@^2.2.0 eslint-plugin-prettier@^2.1.2 prettier
+yarn add -D @gonimbly/eslint-config-base eslint@^3.19.0 eslint-plugin-import@^2.2.0 eslint-plugin-prettier@^2.1.2 prettier eslint-plugin-prefer-object-spread@^1.2.1
 ```
 []: # (generate-install-end)
 
