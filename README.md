@@ -14,6 +14,15 @@ Extend these configs in your ESLint configurations to use. If you have a monorep
 
 Note that the ESLint configurations' "extends" field [allows you to ommit](http://eslint.org/docs/developer-guide/shareable-configs.html#using-a-shareable-config) the `eslint-config-` prefix (_unless_ it is both a scoped package, like `@gonimbly`, _and_ there is text after the `@scoped/estlint-config-` part).
 
+**Note:** At this time, Yarn has issues with scoped node modules so you must specify the the following Yarn version in the `engines` section of your package.json file.
+```json
+{
+  "engines": {
+    "yarn": "~0.27.5"
+  }
+}
+```
+
 ## Run eslint/prettier pre-commit
 
 Set up your project to automatically run `eslint --fix` on changed `*.js` files and/or prettier on `*.{json|css|scss}`
