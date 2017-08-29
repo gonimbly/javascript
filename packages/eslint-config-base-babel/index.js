@@ -3,6 +3,7 @@
 module.exports = {
   parser: 'babel-eslint',
   extends: '@gonimbly/eslint-config-base',
+  plugins: ['prefer-object-spread'],
   parserOptions: {
     sourceType: 'module',
     ecmaFeatures: {
