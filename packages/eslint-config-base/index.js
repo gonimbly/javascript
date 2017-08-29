@@ -7,7 +7,7 @@ module.exports = {
     'plugin:import/warnings',
     'prettier',
   ],
-  plugins: ['import', 'prefer-object-spread', 'prettier'],
+  plugins: ['import', 'prettier'],
   env: {
     es6: true,
     node: true,
