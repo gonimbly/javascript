@@ -49,15 +49,15 @@ commit. If any eslint errors are found, the commit will be aborted so that they 
 
 ## Development
 
-1. Clone repo and run `yarn`
+1. Clone this repo, `cd` to it, then run `yarn`
 2. Create branch off `master`
 3. ...commit stuff...
 4. Push branch and open PR
 
-## Releasing
+## Publishing a release to NPM
 
-1. Merge approved PR(s) to `master`
+1. Merge approved PR(s) to `master` using "squash" option
 2. Checkout `master`
-3. Make sure your `~/.npmrc` does not override the default registry. Comment the line out if it does.
-4. `npm login` (only need to do this once per machine)
-5. `lerna publish` and increment version ([semver](http://semver.org/))
+3. Run `npm login` (only need to do this once per machine)
+4. Check your `~/.npmrc` and make sure it isn't overriding the default registry. Comment the line out if it does.
+5. Run `lerna publish` and increment version according to [semver](http://semver.org/)
