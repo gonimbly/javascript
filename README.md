@@ -29,7 +29,7 @@ Set up your project to automatically run `eslint --fix` on changed `*.js` files 
 files before commits are made. Changes made by eslint will be re-staged, and if there are no errors, will allow the
 commit. If any eslint errors are found, the commit will be aborted so that they can be fixed manually.
 
-1. `yarn add -D lint-staged husky`
+1. `yarn add -D lint-staged husky prettier`
 2. Update your project's root `package.json`, like this:
 ```json
 {
