@@ -1,4 +1,4 @@
-# GoNimbly Javascript Styleguide
+# Go Nimbly Javascript Styleguide
 
 ## ESLint Configs
 
@@ -14,7 +14,9 @@ Extend these configs in your ESLint configurations to use. If you have a monorep
 
 Note that the ESLint configurations' "extends" field [allows you to ommit](http://eslint.org/docs/developer-guide/shareable-configs.html#using-a-shareable-config) the `eslint-config-` prefix (_unless_ it is both a scoped package, like `@gonimbly`, _and_ there is text after the `@scoped/estlint-config-` part).
 
-*** For deploying to Heroku, add the following `engines` parameter to your `package.json`
+## Heroku and private packages
+
+To deploy to Heroku, you'll need to add the following `engines` parameter to your `package.json`
 
 ```json
 {
