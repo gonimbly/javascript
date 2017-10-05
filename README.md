@@ -51,6 +51,18 @@ commit. If any eslint errors are found, the commit will be aborted so that they 
 
   via [okonet/lint-staged](https://github.com/okonet/lint-staged/blob/48fbe20c89678de9ef0ef99f7e270d0ced099a4f/README.md#installation-and-setup)
 
+## ESLint and Prettier in your IDE
+
+### VSCode
+
+You can easily enable automatic code formatting by installing the ESLint and Prettier extensions via VSCode's extension manager.
+
+After installation you'll want to enable the following setting to allow prettier to respect the eslint settings:
+
+```
+"prettier.eslintIntegration": true
+```
+
 ## Development
 
 1. Clone this repo, `cd` to it, then run `yarn`
