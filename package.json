@@ -1,7 +1,7 @@
 {
   "name": "@gonimbly/javascript",
-  "private": true,
   "version": "1.0.0",
+  "private": true,
   "description": "GoNimbly Javascript Styleguide",
   "author": "Jon Crenshaw <jon.crenshaw@gonimbly.com>",
   "license": "MIT",
@@ -10,7 +10,8 @@
   "scripts": {
     "clean": "lerna clean --yes && rimraf node_modules **/yarn.lock",
     "postinstall": "lerna bootstrap",
-    "generate-install": "node ./scripts/generate-install.js && git add ./packages/*/README.md",
+    "generate-install":
+      "node ./scripts/generate-install.js && git add ./packages/*/README.md",
     "precommit": "npm run generate-install && lint-staged"
   },
   "lint-staged": {
