@@ -7,12 +7,13 @@
   "license": "MIT",
   "homepage": "https://github.com/gonimbly/javascript",
   "repository": "gonimbly/javascript",
+  "workspaces": ["packages/*"],
   "scripts": {
     "clean": "lerna clean --yes && rimraf node_modules **/yarn.lock",
-    "postinstall": "lerna bootstrap",
     "generate-install":
       "node ./scripts/generate-install.js && git add ./packages/*/README.md",
-    "precommit": "npm run generate-install && lint-staged"
+    "precommit": "npm run generate-install && lint-staged",
+    "publish": "lerna publish"
   },
   "lint-staged": {
     "*.js": ["eslint --fix", "git add"],

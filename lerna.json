@@ -2,5 +2,10 @@
   "lerna": "2.0.0-rc.5",
   "version": "2.3.0",
   "npmClient": "yarn",
-  "packages": ["packages/*"]
+  "useWorkspaces": true,
+  "command": {
+    "publish": {
+      "exact": true
+    }
+  }
 }
