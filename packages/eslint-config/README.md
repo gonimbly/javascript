@@ -4,11 +4,11 @@ Implements ESLint configuration intended for React apps compiled **with** Babel.
 
 ## Install
 
-[]: # (generate-install-begin)
+<!--generate-install-begin-->
 ```bash
 yarn add -D @gonimbly/eslint-config babel-eslint@^7.2.3 eslint@^3.19.0 eslint-plugin-flowtype@^2.33.0 eslint-plugin-import@^2.2.0 eslint-plugin-jsx-a11y@^5.0.3 eslint-plugin-prefer-object-spread@^1.2.1 eslint-plugin-prettier@^2.1.2 eslint-plugin-react@^7.0.1 prettier
 ```
-[]: # (generate-install-end)
+<!--generate-install-end-->
 
 ## Usage
 

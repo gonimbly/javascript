@@ -19,6 +19,10 @@
     "*.json": ["prettier --write", "git add"],
     "yarn.lock": ["git rm --cached"]
   },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
   "devDependencies": {
     "chalk": "^2.0.1",
     "eslint": "^3.19.0",

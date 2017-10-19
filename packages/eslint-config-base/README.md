@@ -4,11 +4,11 @@ Implements a base ESLint configuration intended for apps **not** compiled with B
 
 ## Install
 
-[]: # (generate-install-begin)
+<!--generate-install-begin-->
 ```bash
 yarn add -D @gonimbly/eslint-config-base eslint@^3.19.0 eslint-plugin-import@^2.2.0 eslint-plugin-prettier@^2.1.2 prettier
 ```
-[]: # (generate-install-end)
+<!--generate-install-end-->
 
 ## Usage
 
