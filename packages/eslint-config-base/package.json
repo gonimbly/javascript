@@ -4,8 +4,8 @@
   "description": "GoNimbly's Base ESLint config",
   "author": "Jon Crenshaw <jon.crenshaw@gonimbly.com>",
   "license": "MIT",
-  "homepage": "https://bitbucket.org/gonimbly/javascript",
-  "repository": "bitbucket:gonimbly/javascript",
+  "homepage": "https://github.com/gonimbly/javascript",
+  "repository": "gonimbly/javascript",
   "main": "index.js",
   "dependencies": {
     "eslint-config-prettier": "^2.2.0"

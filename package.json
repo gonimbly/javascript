@@ -5,8 +5,8 @@
   "description": "GoNimbly Javascript Styleguide",
   "author": "Jon Crenshaw <jon.crenshaw@gonimbly.com>",
   "license": "MIT",
-  "homepage": "https://bitbucket.org/gonimbly/javascript",
-  "repository": "bitbucket:gonimbly/javascript",
+  "homepage": "https://github.com/gonimbly/javascript",
+  "repository": "gonimbly/javascript",
   "scripts": {
     "clean": "lerna clean --yes && rimraf node_modules **/yarn.lock",
     "postinstall": "lerna bootstrap",
